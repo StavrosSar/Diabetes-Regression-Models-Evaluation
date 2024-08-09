@@ -1,7 +1,5 @@
 # Diabetes-Regression-Models-Evaluation
 
-# Diabetes Regression Models Evaluation
-
 This repository contains a Python script that evaluates various regression models using the Diabetes dataset from the `scikit-learn` library. The script performs data preprocessing, trains multiple regression models, and evaluates their performance using common metrics.
 
 ## Table of Contents
