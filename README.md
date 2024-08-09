@@ -55,8 +55,8 @@ df.head().T
 # Data Loading
 The script loads the Diabetes dataset and creates a DataFrame for easier handling.
 
-###Data Preprocessing
-#Normalization: The feature data is normalized to ensure that all features have the same scale.
+# Data Preprocessing
+Normalization: The feature data is normalized to ensure that all features have the same scale.
 
 # Model Training and Evaluation
 The script trains and evaluates the following regression models:
