@@ -6,16 +6,16 @@ This repository contains a Python script that evaluates various regression model
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Requirements](#requirements)
-- [Data](#data)
-- [Usage](#usage)
-- [Script Details](
-  - [Data Loading]
-  - [Data Preprocessing]
-  - [Model Training and Evaluation](#model-training-and-evaluation)
-  - [Metrics](#metrics)
-- [License](#license)
+- Overview
+- Requirements
+- Data
+- Usage
+- Script Details
+  - Data Loading
+  - Data Preprocessing
+  - Model Training and Evaluation
+  - Metrics
+- License
 
 ## Overview
 
