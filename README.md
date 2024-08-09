@@ -30,3 +30,22 @@ To run this script, you'll need Python 3.x and the following libraries:
 - `numpy`
 - `pandas`
 - `scikit-learn`
+
+## Script Details
+
+### Data Loading
+
+The script loads the Diabetes dataset from `scikit-learn` and creates a DataFrame for easier handling:
+
+```python
+from sklearn.datasets import load_diabetes
+import pandas as pd
+
+# Load the Diabetes dataset
+diabetes = load_diabetes()
+
+# Create a DataFrame
+df = pd.DataFrame(diabetes.data, columns=diabetes.feature_names)
+
+# Display the first few rows of the DataFrame
+df.head().T
