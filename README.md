@@ -51,8 +51,6 @@ df = pd.DataFrame(diabetes.data, columns=diabetes.feature_names)
 df.head().T
 
 
-
-
 ## Script Details
 # Data Loading
 The script loads the Diabetes dataset and creates a DataFrame for easier handling.
