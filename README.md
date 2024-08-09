@@ -49,7 +49,7 @@ df = pd.DataFrame(diabetes.data, columns=diabetes.feature_names)
 
 # Display the first few rows of the DataFrame
 df.head().T
-
+```
 
 ## Script Details
 # Data Loading
