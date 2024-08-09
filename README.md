@@ -49,3 +49,32 @@ df = pd.DataFrame(diabetes.data, columns=diabetes.feature_names)
 
 # Display the first few rows of the DataFrame
 df.head().T
+
+
+
+
+## Script Details
+# Data Loading
+The script loads the Diabetes dataset and creates a DataFrame for easier handling.
+
+###Data Preprocessing
+#Normalization: The feature data is normalized to ensure that all features have the same scale.
+
+# Model Training and Evaluation
+The script trains and evaluates the following regression models:
+
+- Linear Regression
+- Lasso Regression
+- Ridge Regression
+(Note: Logistic Regression is excluded as it is intended for classification tasks, not regression.)
+
+# Metrics
+The performance of each model is evaluated using:
+
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- R-Squared (R²)
+These metrics help in assessing the model's accuracy and predictive power.
+
+# Results
+After execution, the script prints the performance metrics for each model, providing a comparison of how well each model performs on the test set.
